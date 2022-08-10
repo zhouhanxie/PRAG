@@ -1,2 +1,2 @@
-PRANK: Personalized Review Ranking for Explainable Recommendation
+PRAGA: Personalized Retrieval Augmented Generator for Explainable Recommendation
 ---
