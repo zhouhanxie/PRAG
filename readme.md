@@ -1,2 +1,2 @@
-PRAGA: Personalized Retrieval Augmented Generator for Explainable Recommendation
+PRAG: Personalized Retrieval Augmented Generator for Explainable Recommendation
 ---
