@@ -109,8 +109,8 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/TripAdvisor/reviews.pickle', 
                     index_dir='../nlg4rec_data/TripAdvisor/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/tripadvisor_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/item_topic/TripAdvisor/1/checkpoint-32004',
+                    cached_review_embedding='transformer_retriever/tripadvisor_table.npy',
+                    retriever_dir='personalized_retriever/item_topic/TripAdvisor/1/checkpoint-32004',
                     output_dir='generated/tripadvisor_generated.csv',
                     save_every=5000
                 )
@@ -120,8 +120,8 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/Yelp/reviews.pickle', 
                     index_dir='../nlg4rec_data/Yelp/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/yelp_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/item_topic/Yelp/1/checkpoint-129328',
+                    cached_review_embedding='transformer_retriever/yelp_table.npy',
+                    retriever_dir='personalized_retriever/item_topic/Yelp/1/checkpoint-129328',
                     output_dir='generated/yelp_generated.csv',
                     save_every=5000
                 )
@@ -131,8 +131,8 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/Amazon/MoviesAndTV/reviews.pickle', 
                     index_dir='../nlg4rec_data/Amazon/MoviesAndTV/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/amazon_moviesandtv_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/item_topic/Amazon/MoviesAndTV/1/checkpoint-77315',
+                    cached_review_embedding='transformer_retriever/amazon_moviesandtv_table.npy',
+                    retriever_dir='personalized_retriever/item_topic/Amazon/MoviesAndTV/1/checkpoint-77315',
                     output_dir='generated/movies_and_tv_generated.csv',
                     save_every=5000
                 )

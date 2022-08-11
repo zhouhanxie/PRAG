@@ -159,7 +159,7 @@ class NRTPredictor:
 
 if __name__ == '__main__':
     predictor = NRTPredictor(
-        '/home/zhouhang/data/review-generation/NRT/tripadvisor/model.pt',
+        'NRT/tripadvisor/model.pt',
         '../nlg4rec_data/TripAdvisor/reviews.pickle',
         '../nlg4rec_data/TripAdvisor/1/',
         20000

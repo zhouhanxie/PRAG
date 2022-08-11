@@ -2,7 +2,7 @@ from datasets import load_dataset, Dataset
 from transformers import  DataCollatorForSeq2Seq
 import os
 os.environ["WANDB_DISABLED"] = "true"
-os.environ["HF_DATASETS_CACHE"]="extra/ucinlp0/zhouhanx/.cache/huggingface/datasets"
+os.environ["HF_DATASETS_CACHE"]=".cache/huggingface/datasets"
 from transformers import Trainer, TrainingArguments
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from pathlib import Path

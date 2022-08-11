@@ -15,7 +15,7 @@ def main():
     
     print('loading')
     predictor = PeplermfPredictor(
-            model_path = '/home/zhouhang/data/review-generation/PEPLER/tripadvisormf/model.pt'
+            model_path = 'PEPLER/tripadvisormf/model.pt'
         )
     bos = '<bos>'
     eos = '<eos>'

@@ -151,7 +151,7 @@ class Att2SeqPredictor:
 
 if __name__ == '__main__':
     predictor = Att2SeqPredictor(
-        '/home/zhouhang/data/review-generation/Att2Seq/tripadvisor/model.pt',
+        'Att2Seq/tripadvisor/model.pt',
         '../nlg4rec_data/TripAdvisor/reviews.pickle',
         '../nlg4rec_data/TripAdvisor/1/',
         20000

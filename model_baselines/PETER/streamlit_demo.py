@@ -17,9 +17,9 @@ def setup():
     """
     Squashed all the preparation code into this function
     """
-    model_path = os.path.join('/home/zhouhang/data/review-generation/PETER/model/tripadvisorf_backup/model.pt')
+    model_path = os.path.join('model/tripadvisorf_backup/model.pt')
     
-    corpus = joblib.load('/home/zhouhang/data/review-generation/PETER/datasample_for_streamlit.joblib')
+    corpus = joblib.load('datasample_for_streamlit.joblib')
     batch_size=64
     word2idx = corpus.word_dict.word2idx
     idx2word = corpus.word_dict.idx2word

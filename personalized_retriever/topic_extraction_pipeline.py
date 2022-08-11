@@ -3,7 +3,7 @@ torch.__version__
 from typing import List
 import torch
 import sys
-sys.path.insert(0,'/extra/ucinlp0/zhouhanx/prank/coop')
+sys.path.insert(0,'coop')
 from coop import VAE, util
 import nltk
 from nltk.corpus import stopwords

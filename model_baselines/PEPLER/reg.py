@@ -23,7 +23,7 @@ parser.add_argument('--lr', type=float, default=0.001,
 parser.add_argument('--epochs', type=int, default=100,
                     help='upper epoch limit')
 parser.add_argument('--batch_size', type=int, default=64,
-                    help='batch size') # (zhouhanx) 128->64 for now
+                    help='batch size') 
 parser.add_argument('--cuda', action='store_true',
                     help='use CUDA')
 parser.add_argument('--log_interval', type=int, default=200,

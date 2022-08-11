@@ -1,6 +1,6 @@
 import mauve 
 import sys
-sys.path.insert(0, '/extra/ucinlp0/zhouhanx/prank/personalized_retriever')
+sys.path.insert(0, 'personalized_retriever')
 from utils import DataReader
 import pandas as pd
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
                 dict(
                     data_path='../../../nlg4rec_data/TripAdvisor/reviews.pickle', 
                     index_dir='../../../nlg4rec_data/TripAdvisor/1',
-                    csv_dir='/extra/ucinlp0/zhouhanx/prank/coop-finetune/generated/tripadvisor_generated.csv'
+                    csv_dir='coop-finetune/generated/tripadvisor_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'yelp':
@@ -65,7 +65,7 @@ if __name__ == '__main__':
                 dict(
                     data_path='../../../nlg4rec_data/Yelp/reviews.pickle', 
                     index_dir='../../../nlg4rec_data/Yelp/1',
-                    csv_dir='/extra/ucinlp0/zhouhanx/prank/coop-finetune/generated/yelp_generated.csv'
+                    csv_dir='coop-finetune/generated/yelp_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'movies_and_tv':
@@ -73,7 +73,7 @@ if __name__ == '__main__':
                 dict(
                     data_path='../../../nlg4rec_data/Amazon/MoviesAndTV/reviews.pickle', 
                     index_dir='../../../nlg4rec_data/Amazon/MoviesAndTV/1',
-                    csv_dir='/extra/ucinlp0/zhouhanx/prank/coop-finetune/generated/movies_and_tv_generated.csv'
+                    csv_dir='coop-finetune/generated/movies_and_tv_generated.csv'
                 )
             )
     main(args)

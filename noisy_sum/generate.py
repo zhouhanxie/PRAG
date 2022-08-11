@@ -60,24 +60,24 @@ if __name__ == '__main__':
         if args.auto_arg_by_dataset == 'tripadvisor':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/tripadvisor_generated.csv',
-                    summarizer_path='/extra/ucinlp0/zhouhanx/prank/noisy_sum/models/tripadvisor/checkpoint-2634',
+                    input_csv='prag_generation/generated/tripadvisor_generated.csv',
+                    summarizer_path='noisy_sum/models/tripadvisor/checkpoint-2634',
                     output_csv='./tripadvisor_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'yelp':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/yelp_generated.csv',
-                    summarizer_path='/extra/ucinlp0/zhouhanx/prank/noisy_sum/models/yelp/checkpoint-10956',
+                    input_csv='prag_generation/generated/yelp_generated.csv',
+                    summarizer_path='prank/noisy_sum/models/yelp/checkpoint-10956',
                     output_csv='./yelp_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'movies_and_tv':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/movies_and_tv_generated.csv',
-                    summarizer_path='/extra/ucinlp0/zhouhanx/prank/noisy_sum/models/movies_and_tv/checkpoint-7908',
+                    input_csv='prag_generation/generated/movies_and_tv_generated.csv',
+                    summarizer_path='prank/noisy_sum/models/movies_and_tv/checkpoint-7908',
                     output_csv='./movies_and_tv_generated.csv'
                 )
             )

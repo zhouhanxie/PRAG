@@ -87,7 +87,7 @@ def main(args):
 
     # # semantic evaluations, needs bartscore environment
     # import sys
-    # sys.path.insert(0,'/home/zhouhang/data/review-generation/BARTScore')
+    # sys.path.insert(0,'BARTScore')
     # from score_from_files import main as semantic_score_main
     # from easydict import EasyDict as edict
     # semantic_score_main(
@@ -117,7 +117,7 @@ def main(args):
 
     # # text-label agreement
     # import sys
-    # sys.path.insert(0,'/home/zhouhang/data/review-generation/bert_regression')
+    # sys.path.insert(0,'bert_regression')
     # from predict_with_gold import main as text_label_agreement_main
     # from easydict import EasyDict as edict
     # import numpy as np

@@ -47,24 +47,24 @@ if __name__ == '__main__':
         if args.auto_arg_by_dataset == 'tripadvisor':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/tripadvisor_generated.csv',
-                    optimus_path='/extra/ucinlp0/zhouhanx/prank/coop-finetune/log/optimus_1_epoch_0.5_beta/tripadvisor/ex1/model-step_32009.th',
+                    input_csv='prag_generation/generated/tripadvisor_generated.csv',
+                    optimus_path='coop-finetune/log/optimus_1_epoch_0.5_beta/tripadvisor/ex1/model-step_32009.th',
                     output_csv='./tripadvisor_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'yelp':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/yelp_generated.csv',
-                    optimus_path='/extra/ucinlp0/zhouhanx/prank/coop-finetune/log/optimus_1_epoch_0.5_beta/yelp/ex1/model-step_130000.th',
+                    input_csv='prag_generation/generated/yelp_generated.csv',
+                    optimus_path='coop-finetune/log/optimus_1_epoch_0.5_beta/yelp/ex1/model-step_130000.th',
                     output_csv='./yelp_generated.csv'
                 )
             )
         elif args.auto_arg_by_dataset == 'movies_and_tv':
             args = edict(
                 dict(
-                    input_csv='/extra/ucinlp0/zhouhanx/prank/prag_generation/generated/movies_and_tv_generated.csv',
-                    optimus_path='/extra/ucinlp0/zhouhanx/prank/coop-finetune/log/optimus_1_epoch_0.5_beta/movies_and_tv/ex1/model-step_44190.th',
+                    input_csv='prag_generation/generated/movies_and_tv_generated.csv',
+                    optimus_path='coop-finetune/log/optimus_1_epoch_0.5_beta/movies_and_tv/ex1/model-step_44190.th',
                     output_csv='./movies_and_tv_generated.csv'
                 )
             )

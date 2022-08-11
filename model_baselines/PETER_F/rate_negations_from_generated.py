@@ -29,7 +29,7 @@ def dictorize(user, item, rating, seq, feature):
 def main(args):
     print('loading...')
     predictor = PeterPredictor(
-        '/home/zhouhang/data/review-generation/PETER/model/tripadvisorf_backup/model.pt',
+        'PETER/model/tripadvisorf_backup/model.pt',
         './data/TripAdvisor/reviews.pickle',
         './data/TripAdvisor/1/',
         20000

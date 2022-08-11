@@ -1,7 +1,7 @@
 import torch
 import os
 os.environ["WANDB_DISABLED"] = "true"
-os.environ["HF_DATASETS_CACHE"]="extra/ucinlp0/zhouhanx/.cache/huggingface/datasets"
+os.environ["HF_DATASETS_CACHE"]=".cache/huggingface/datasets"
 import numpy as np
 
 import numpy as np
@@ -179,7 +179,7 @@ if __name__ == '__main__':
                     save_total_limit=1, 
                     tolerance_steps=3, 
                     ui_hidden_size=768,
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/tripadvisor_table.npy'
+                    cached_review_embedding='transformer_retriever/tripadvisor_table.npy'
                 )
             )
         elif args.auto_arg_by_dataset == 'yelp':
@@ -201,7 +201,7 @@ if __name__ == '__main__':
                     save_total_limit=1, 
                     tolerance_steps=3, 
                     ui_hidden_size=768,
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/yelp_table.npy'
+                    cached_review_embedding='archive/transformer_retriever/yelp_table.npy'
                 )
             )
         elif args.auto_arg_by_dataset == 'movies_and_tv':
@@ -223,7 +223,7 @@ if __name__ == '__main__':
                     save_total_limit=1, 
                     tolerance_steps=3, 
                     ui_hidden_size=768,
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/amazon_moviesandtv_table.npy'
+                    cached_review_embedding='archive/transformer_retriever/amazon_moviesandtv_table.npy'
                 )
             )
     

@@ -181,9 +181,9 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/TripAdvisor/reviews.pickle', 
                     index_dir='../nlg4rec_data/TripAdvisor/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/tripadvisor_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/mpnet_space/item_topic/TripAdvisor/1/checkpoint-32004',
-                    embedding_interpreter_dir='/extra/ucinlp0/zhouhanx/prank/embedding_interpreter/TripAdvisor/1/checkpoint-68034',
+                    cached_review_embedding='archive/transformer_retriever/tripadvisor_table.npy',
+                    retriever_dir='personalized_retriever/mpnet_space/item_topic/TripAdvisor/1/checkpoint-32004',
+                    embedding_interpreter_dir='/embedding_interpreter/TripAdvisor/1/checkpoint-68034',
                     output_dir='generated/tripadvisor_generated.csv',
                     save_every=5000,
                     max_sample=10000
@@ -194,9 +194,9 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/Yelp/reviews.pickle', 
                     index_dir='../nlg4rec_data/Yelp/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/yelp_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/mpnet_space/item_topic/Yelp/1/checkpoint-129328',
-                    embedding_interpreter_dir='/extra/ucinlp0/zhouhanx/prank/embedding_interpreter/Yelp/1/checkpoint-323320',
+                    cached_review_embedding='transformer_retriever/yelp_table.npy',
+                    retriever_dir='personalized_retriever/mpnet_space/item_topic/Yelp/1/checkpoint-129328',
+                    embedding_interpreter_dir='embedding_interpreter/Yelp/1/checkpoint-323320',
                     output_dir='generated/yelp_generated.csv',
                     save_every=5000,
                     max_sample=10000
@@ -207,9 +207,9 @@ if __name__ == '__main__':
                 dict(
                     data_path='../nlg4rec_data/Amazon/MoviesAndTV/reviews.pickle', 
                     index_dir='../nlg4rec_data/Amazon/MoviesAndTV/1',
-                    cached_review_embedding='/extra/ucinlp0/zhouhanx/prank/archive/transformer_retriever/amazon_moviesandtv_table.npy',
-                    retriever_dir='/extra/ucinlp0/zhouhanx/prank/personalized_retriever/mpnet_space/item_topic/Amazon/MoviesAndTV/1/checkpoint-77315',
-                    embedding_interpreter_dir='/extra/ucinlp0/zhouhanx/prank/embedding_interpreter/Amazon/MoviesAndTV/1/checkpoint-107718',
+                    cached_review_embedding='archive/transformer_retriever/amazon_moviesandtv_table.npy',
+                    retriever_dir='personalized_retriever/mpnet_space/item_topic/Amazon/MoviesAndTV/1/checkpoint-77315',
+                    embedding_interpreter_dir='embedding_interpreter/Amazon/MoviesAndTV/1/checkpoint-107718',
                     output_dir='generated/movies_and_tv_generated.csv',
                     save_every=5000,
                     max_sample=10000

@@ -1,7 +1,7 @@
 import torch
 import os
 os.environ["WANDB_DISABLED"] = "true"
-os.environ["HF_DATASETS_CACHE"]="extra/ucinlp0/zhouhanx/.cache/huggingface/datasets"
+os.environ["HF_DATASETS_CACHE"]=".cache/huggingface/datasets"
 import numpy as np
 from modeling_personalized_retriever import PersonalizedRetrieverModel, PersonalizedRetrieverConfig
 from transformers import BertConfig
